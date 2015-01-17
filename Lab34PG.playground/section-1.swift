@@ -2,13 +2,13 @@
 
 import UIKit
 
-func area(w:Double, h:Double)-> Double {
+func area(w:Double, h:Double)->Double {
     var vTemp:Double
     vTemp = w * h
     return vTemp
 }
 
-func perimeter(w:Double, h:Double)-> Double {
+func perimeter(w:Double, h:Double)->Double {
     var vTemp:Double
     vTemp = w + w + h + h
     return vTemp
