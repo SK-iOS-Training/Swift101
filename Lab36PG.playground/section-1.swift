@@ -5,7 +5,7 @@ import UIKit
 func aTri(w:Double, h:Double)->(Double, Double) {
     var vArea = w * h
     var vPeri = w + w + h + h
-    return (vArea,vPeri)
+    return (vArea, vPeri)
 }
 
 var width = 12.5
