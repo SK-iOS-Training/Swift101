@@ -1,15 +1,15 @@
 import UIKit
 
-var str = "Hello, playground"
+var greeting:String
+var name:String
+
+greeting="hello"
+name="Thanathep"
+println("*** Swift First Time ***")
+println(" \(greeting) \(name))")
 
 
-println(str)
-
-let myAge=20
-
-var suanStudent:Bool = true
-
-//content
-println("I am \(myAge) years old")
-println("Am I Suankularb Student : \(suanStudent)")
-
+greeting="Sawasdee"
+name="Ton"
+println("*** Swift First Time ***")
+println(" \(greeting) \(name))")
