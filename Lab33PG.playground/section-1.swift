@@ -4,7 +4,7 @@ import UIKit
 
 func sayGreeting (greeting:String, name:String)->Void {
     println("*** Swift Programming ***")
-    println("*** \(greeting) \(name) ***")
+    println("***" + greeting + name + "***")
 }
 
 sayGreeting("Hello", "Lek")
