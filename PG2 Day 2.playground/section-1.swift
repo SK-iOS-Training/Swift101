@@ -7,7 +7,7 @@ class Member {
     var age:Int = 0
 
     func printData()->String {
-        println("Name : \(name) Age : \(age)")
+      
         
         return printData()
     }
@@ -27,6 +27,6 @@ m3.name = "Tom"
 m3.age = 17
 
 m1.printData()
-m1
+
 
 
